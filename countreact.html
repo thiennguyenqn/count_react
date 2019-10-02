@@ -62,7 +62,7 @@
 							ID Post
 						</th>
 						<th>
-							Love
+							Haha
 						</th>
 						
 						<th>
@@ -140,7 +140,7 @@
 					});
 				}
 				function getLike(id_post){
-					link = `https://graph.facebook.com/${id_post}/reactions?limit=1&fields=id&summary=true&type=LOVE&access_token=${token}`;
+					link = `https://graph.facebook.com/${id_post}/reactions?limit=1&fields=id&summary=true&type=HAHA&access_token=${token}`;
 					$.ajax({
 						url: link,
 						dataType: 'json',
